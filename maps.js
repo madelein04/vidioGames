@@ -1,8 +1,8 @@
 const emojis = {
-  '-': ' ',
+  '-': '🌳',
   'I': '🍌',
-  'X': '💣',
-  'O': '🌳',
+  'X': '🪵',
+  'O': '',
   'PLAYER': '🐒',
   'BOMB_COLLISION': '🔥',
   'GAME_OVER': '👎',
@@ -12,57 +12,57 @@ const emojis = {
 
 const maps = [];
 maps.push(`
-  IXXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  OXXXXXXXXX
+  IX------XX
+  -XXXXXX-XX
+  -XXXX---XX
+  -XXXXXXX-X
+  ------XXXX
+  -XXXX-XX-X
+  XXXX---X-X
+  XXXX-XXX-X
+  XXXX-----X
+  O----XXXXX
 `);
 maps.push(`
-  O--XXXXXXX
-  X--XXXXXXX
+  O--X-----X
+  X--XXXXX-X
   XX----XXXX
-  X--XX-XXXX
-  X-XXX--XXX
+  X--XX-XX-X
+  X-XXX--X-X
   X-XXXX-XXX
-  XX--XX--XX
+  X---XX--XX
   XX--XXX-XX
   XXXX---IXX
   XXXXXXXXXX
   `);
 maps.push(`
-  I-----XXXX
-  XXXXX-XXXX
-  XX----XXXX
-  XX-XXXXXXX
-  XX-----XXX
-  XXXXXX-XXX
+  I-----X--X
+  XXXXX-XX-X
+  ------XX-X
+  -XXXXXXXXX
+  -------XXX
+  XXX-XX-XXX
   XX-----XXX
   XX-XXXXXXX
   XX-----OXX
-  XXXXXXXXXX
+  X-XXX-XXXX
 `);
 maps.push(`
   O-XXXXXXXX
   X--XX-XX-X
   XX-------X
-  XX-X-XXX-X
+  XX-X-X-X-X
   XX-----X-X
-  XX-X-XXX-X
-  XXXX-----X
-  XX-XXX-XXX
+  ---X-XXX-X
+  -XXX-----X
+  ---XXX-XXX
   XX-----IXX
   XXXXXXXXXX
 `);
 maps.push(`
-  XXX----XXX
-  XXX-XX--XX
-  XXX-XXX--X
+  X------XXX
+  X-X-XX--XX
+  X-X-XXX--X
   X-----X-XX
   X-XXX-X--X
   X-X-X--X-X
@@ -74,13 +74,13 @@ maps.push(`
 
 maps.push(`
   -------XXX
-  -XX-XX--XX
+  -XX--X--XX
   --X-XIX--X
   X-X-X-X-XX
   --X-X-X--X
   -XX---XX-X
-  -XXXXXXX-X
-  -XXXXXXX--
-  ------XXX-
+  -XXX-XXX-X
+  -XX-XX-X--
+  ------X-X-
   XXXXX----O
 `);
