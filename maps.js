@@ -11,6 +11,7 @@ const emojis = {
 };
 
 const maps = [];
+const mapsWin = [];
 maps.push(`
   IX------XX
   -XXXXXX-XX
@@ -23,7 +24,7 @@ maps.push(`
   XXXX-----X
   O----XXXXX
 `);
-maps.push(`
+/*maps.push(`
   O--X-----X
   X--XXXXX-X
   XX----XXXX
@@ -83,4 +84,17 @@ maps.push(`
   -XX-XX-X--
   ------X-X-
   XXXXX----O
+`);*/
+
+mapsWin.push(`
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
+  IIIIIIIIII
 `);
