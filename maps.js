@@ -24,7 +24,7 @@ maps.push(`
   XXXX-----X
   O----XXXXX
 `);
-/*maps.push(`
+maps.push(`
   O--X-----X
   X--XXXXX-X
   XX----XXXX
@@ -84,7 +84,7 @@ maps.push(`
   -XX-XX-X--
   ------X-X-
   XXXXX----O
-`);*/
+`);
 
 mapsWin.push(`
   IIIIIIIIII
