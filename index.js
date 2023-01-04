@@ -1,6 +1,5 @@
 const canvas = document.querySelector('#game');
 const game = canvas.getContext('2d');
-const anuncio = document.querySelector('#anuncio');
 const btnUp = document.querySelector('#up');
 const btnLeft = document.querySelector('#left');
 const btnRight = document.querySelector('#right');
@@ -22,7 +21,7 @@ let timeStar;
 let timePlayer;
 let timeInterval;
 
-//const showFinalScreen = false;
+
 
 const playerPosition = {
     x: undefined,
@@ -43,19 +42,7 @@ let enemyPositions = [];
 
 window.addEventListener('load', setCanvasSize);
 window.addEventListener('resize', setCanvasSize);
-/*window.addEventListener('load', anunciofunc);
-window.addEventListener('resize', anunciofunc);
 
-function anunciofunc() {
-    if (window.innerHeight > window.innerWidth) {
-        canvasAnuncio = window.innerWidth * 0.7;
-    } else {
-        canvasAnuncio = window.innerHeight * 0.7;
-    }    
-    canvas.setAttribute('width', canvasAnuncio);
-    canvas.setAttribute('height', canvasAnuncio);
-    
-}*/
 function setCanvasSize() {
     if (window.innerHeight > window.innerWidth) {
         canvasSize = window.innerWidth * 0.7;

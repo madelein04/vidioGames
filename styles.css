@@ -21,16 +21,6 @@ canvas {
 
 }
 
-canvas #anuncio {
-    position: absolute;
-    display: none;
-    justify-content: center;
-    z-index: -1;
-    width: 100%;
-    height: 50%;
-    font-size: 20vw;
-    background: rgba(122, 125, 175, 0.253);
-}
 
 .btns {
     display: flex;
